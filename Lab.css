@@ -51,6 +51,7 @@ a:hover{
     text-align: center;
     border: 2px solid black;
     width: 350px;
+    margin-top: 40px;
     margin-left: 100px;
     box-shadow: 15px 15px 15px lightskyblue;
     font-kerning: normal;
