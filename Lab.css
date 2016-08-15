@@ -1,0 +1,63 @@
+#container{
+    border: 2px double black;
+    width: 80%;
+    height: 1000px;
+    margin-left: 120px;
+}
+
+div {
+    display: block;
+}
+
+#main{
+    width: 60%;
+    height: 900px;  
+    margin: 70px auto 20px auto;
+}
+
+#logo{
+    width: 200px;
+    height: 150px;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 15px
+}
+
+#linebreak{
+    border: 2px solid black;
+}
+
+li{
+    display: inline;
+    padding: 10px 15px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: lightseagreen;
+
+}
+
+
+#text{
+    text-align: justify;
+}
+
+#qoute{
+    text-align: center;
+    border: 2px solid black;
+    width: 350px;
+    margin-left: 100px;
+    box-shadow: 15px 15px 15px lightskyblue;
+    font-kerning: normal;
+    text-transform: capitalize; 
+}
+
+#saint{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
