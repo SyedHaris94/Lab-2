@@ -47,10 +47,15 @@ li a{
 
 a:hover{
     color: lightskyblue;
-
 }
-
-
+a:active{  
+    color:yellow; 
+    background-color:transparent; 
+}
+a:link{
+    color:green; 
+    background-color:transparent;
+}
 #text{
     text-align: center;
 }
