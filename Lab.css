@@ -1,8 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    background-color: lightgrey;
+}
 #container{
     border: 2px double black;
     width: 80%;
     height: 1000px;
     margin-left: 120px;
+    background-color: white;
 }
 
 div {
@@ -11,7 +18,7 @@ div {
 
 #main{
     width: 60%;
-    height: 900px;  
+    height: 350px;  
     margin: 70px auto 20px auto;
 }
 
@@ -19,7 +26,7 @@ div {
     width: 200px;
     height: 150px;
     position: relative;
-    margin-left: 500px;
+    margin-left: 280px;
     margin-top: 15px
 }
 
@@ -34,26 +41,32 @@ li{
 
 li a{
     text-decoration: none;
-    color: black;
+    color: navy;
+    
 }
 
 a:hover{
-    color: lightseagreen;
-
+    color: lightskyblue;
 }
-
-
+a:active{  
+    color:yellow; 
+    background-color:transparent; 
+}
+a:link{
+    color:green; 
+    background-color:transparent;
+}
 #text{
-    text-align: justify;
+    text-align: center;
 }
 
 #qoute{
     text-align: center;
-    border: 2px solid black;
-    width: 350px;
+    border: 1px solid black;
+    width: 400px;
+    height: 110px;
     margin-top: 40px;
     margin-left: 100px;
-    box-shadow: 15px 15px 15px lightskyblue;
     font-kerning: normal;
     text-transform: capitalize; 
 }
